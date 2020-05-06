@@ -23,12 +23,13 @@ url = 'https://api.foursquare.com/v2/venues/search?&client_id={}&client_secret={
 ```
 We only need to change the variable query. We have already defined the variables elsewhere in the code. 
 
-###### Data Cleaning :-
+#### Data Cleaning :-
 We will store the retrieved information in a dataframe. Our dataframe would look something like this :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Data1.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Data1.JPG?raw=true
+
 
 We clean the data and turn it into the following dataframe :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Data2.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Data2.JPG?raw=true
 
 
 
@@ -39,25 +40,25 @@ Then we group the data into clusters and represent the clusters on the map.
 ## RESULTS
 
 ###### Connaught Place on the map :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map1.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map1.JPG?raw=true
 
 ###### Restaurants in Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map2.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map2.JPG?raw=true
 
 ###### Bars in Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map3.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map3.JPG?raw=true
 
 ###### Hotels in Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map4.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map4.JPG?raw=true
 
 ###### All the venues around Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map5.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map5.JPG?raw=true
 
 ###### Clusters of venues :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map6.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map6.JPG?raw=true
 
 ###### Number of venues in each cluster :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Cluster.JPG
+https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Cluster.JPG?raw=true
 
 ## DISCUSSION
 As we can see on the map. Several venues have been grouped into 3 clusters. The circle representing the cluster has not been scaled according to the number of venues in a cluster. Rather they have been made the same size to display the sparsity/density, such that all 3 clusters are visible on the map and the venues can still be differentiated. We are more interested in the centre of the cluster as that will be our criteria for ideal location of hotel.
