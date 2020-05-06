@@ -25,11 +25,12 @@ We only need to change the variable query. We have already defined the variables
 
 #### Data Cleaning :-
 We will store the retrieved information in a dataframe. Our dataframe would look something like this :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Data1.JPG?raw=true
+![Data1](Images/Data1.JPG)
 
 
 We clean the data and turn it into the following dataframe :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Data2.JPG?raw=true
+![Data2](Images/Data2.JPG)
+
 
 
 
@@ -40,25 +41,26 @@ Then we group the data into clusters and represent the clusters on the map.
 ## RESULTS
 
 ###### Connaught Place on the map :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map1.JPG?raw=true
+![Map1](Images/Map1.JPG)
+
 
 ###### Restaurants in Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map2.JPG?raw=true
+![Map2](Images/Map2.JPG)
 
 ###### Bars in Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map3.JPG?raw=true
+![Map3](Images/Map3.JPG)
 
 ###### Hotels in Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map4.JPG?raw=true
+![Map4](Images/Map4.JPG)
 
 ###### All the venues around Connaught Place :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map5.JPG?raw=true
+![Map5](Images/Map5.JPG)
 
 ###### Clusters of venues :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Map6.JPG?raw=true
+![Map6](Images/Map6.JPG)
 
 ###### Number of venues in each cluster :-
-https://github.com/DivS13/Coursera_Capstone/blob/master/Images/Cluster.JPG?raw=true
+![Cluster](Images/Cluster.JPG)
 
 ## DISCUSSION
 As we can see on the map. Several venues have been grouped into 3 clusters. The circle representing the cluster has not been scaled according to the number of venues in a cluster. Rather they have been made the same size to display the sparsity/density, such that all 3 clusters are visible on the map and the venues can still be differentiated. We are more interested in the centre of the cluster as that will be our criteria for ideal location of hotel.
